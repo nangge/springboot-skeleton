@@ -3,7 +3,7 @@ server:
 
 mybatis:
   mapper-locations: classpath:mapper/*.xml
-  type-aliases-package: com.example.sharding.entity
+  type-aliases-package: com.none.sharding.domain.entity
 spring:
   application:
     name: shatding-springboot-mybatis
@@ -29,21 +29,21 @@ sharding:
             table-strategy:  #分表策略
               standard:
                 sharding-column: sex
-                precise-algorithm-class-name: com.example.sharding.shardingAlgorithm.UserShardingAlgorithm
+                precise-algorithm-class-name: com.none.sharding.infrastruc.shardingAlgorithm.UserShardingAlgorithm
           t_address:  #t_address
             key-generator-column-name: id  #主键
             actual-data-nodes: ds0.t_address${0..1}    #数据节点,均匀分布
             table-strategy:  #分表策略
               standard:
                 sharding-column: id
-                precise-algorithm-class-name: com.example.sharding.shardingAlgorithm.UserShardingAlgorithm
+                precise-algorithm-class-name: com.none.sharding.infrastruc.shardingAlgorithm.UserShardingAlgorithm
           t_account:
             key-generator-column-name: id  #主键
             actual-data-nodes: ds0.t_account${2020..2021}${0..1}    #数据节点,均匀分布
             table-strategy:  #分表策略
               standard:
                 sharding-column: id
-                precise-algorithm-class-name: com.example.sharding.shardingAlgorithm.UserShardingAlgorithm
+                precise-algorithm-class-name: com.none.sharding.infrastruc.shardingAlgorithm.UserShardingAlgorithm
 
 #              inline: #行表达式
 #                sharding-column: sex

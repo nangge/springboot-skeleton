@@ -1,11 +1,11 @@
-package com.example.sharding;
+package com.none.sharding;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@MapperScan("com.example.sharding.mapper")
+@MapperScan("com.none.sharding.infrastruc.mapper")
 public class ShardingApplication {
 
     public static void main(String[] args) {

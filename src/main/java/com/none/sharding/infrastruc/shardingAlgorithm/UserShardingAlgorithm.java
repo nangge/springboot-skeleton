@@ -1,4 +1,4 @@
-package com.example.sharding.shardingAlgorithm;
+package com.none.sharding.infrastruc.shardingAlgorithm;
 
 import org.apache.shardingsphere.api.sharding.standard.PreciseShardingAlgorithm;
 import org.apache.shardingsphere.api.sharding.standard.PreciseShardingValue;
@@ -43,5 +43,9 @@ public class UserShardingAlgorithm implements PreciseShardingAlgorithm<Long>, Ra
     @Override
     public Collection<String> doSharding(Collection<String> availableTargetNames, RangeShardingValue<Long> shardingValue) {
         return availableTargetNames;
+    }
+
+    public static void main(String[] args) {
+        "subject123".endsWith("23");
     }
 }

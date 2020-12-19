@@ -1,5 +1,6 @@
-package com.example.sharding.entity;
+package com.none.sharding.domain.entity;
 
+import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 
 import java.util.Date;
@@ -10,7 +11,8 @@ import java.util.Date;
  * @Description TODO
  */
 @Data
-public class User {
+@TableName("t_user")
+public class UserDO {
     private Long id;
     private String name;
     private String phone;

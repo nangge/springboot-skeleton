@@ -1,4 +1,4 @@
-package com.example.sharding.config;
+package com.none.sharding.infrastruc.config;
 
 import com.baomidou.mybatisplus.core.exceptions.MybatisPlusException;
 import com.baomidou.mybatisplus.core.toolkit.StringPool;
@@ -78,7 +78,7 @@ public class CodeGenerator {
         // 包配置
         PackageConfig packageConfig = new PackageConfig();
         packageConfig.setModuleName(scanner("模块名"));
-        packageConfig.setParent("com.example.sharding.service");
+        packageConfig.setParent("com.none.sharding.infrastruc.service");
         packageConfig.setEntity("model");
         packageConfig.setMapper("mapper");
         packageConfig.setService("service");

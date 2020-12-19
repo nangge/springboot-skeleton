@@ -1,6 +1,6 @@
-package com.example.sharding.mapper;
+package com.none.sharding.infrastruc.mapper;
 
-import com.example.sharding.entity.User;
+import com.none.sharding.domain.entity.UserDO;
 import org.apache.ibatis.annotations.Mapper;
 
 /**
@@ -13,14 +13,14 @@ public interface UserMapper {
     /**
      * 保存
      */
-    void save(User user);
+    void save(UserDO userDO);
 
     /**
      * 查询
      * @param id
      * @return
      */
-    User get(Long id);
+    UserDO get(Long id);
 
-    User getBySex(Integer sex);
+    UserDO getBySex(Integer sex);
 }

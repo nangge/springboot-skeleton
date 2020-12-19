@@ -1,7 +1,7 @@
-package com.example.sharding.mapper;
+package com.none.sharding.infrastruc.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.example.sharding.entity.Address;
+import com.none.sharding.domain.entity.AddressDO;
 import org.apache.ibatis.annotations.Mapper;
 
 /**
@@ -10,16 +10,16 @@ import org.apache.ibatis.annotations.Mapper;
  * @Description TODO
  */
 @Mapper
-public interface AddressMapper extends BaseMapper<Address> {
+public interface AddressMapper extends BaseMapper<AddressDO> {
     /**
      * 保存
      */
-    void save(Address address);
+    void save(AddressDO addressDO);
 
     /**
      * 查询
      * @param id
      * @return
      */
-    Address get(Long id);
+    AddressDO get(Long id);
 }

@@ -1,4 +1,4 @@
-package com.example.sharding;
+package com.none.sharding;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

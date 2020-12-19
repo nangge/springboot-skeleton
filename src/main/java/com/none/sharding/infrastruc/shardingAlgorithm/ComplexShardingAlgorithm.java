@@ -1,4 +1,4 @@
-//package com.example.sharding.shardingAlgorithm;
+//package com.none.sharding.infrastruc.shardingAlgorithm;
 //
 //import io.shardingsphere.api.algorithm.sharding.PreciseShardingValue;
 //import io.shardingsphere.api.algorithm.sharding.ShardingValue;

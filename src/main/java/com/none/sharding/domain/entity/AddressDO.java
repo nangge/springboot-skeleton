@@ -1,4 +1,4 @@
-package com.example.sharding.entity;
+package com.none.sharding.domain.entity;
 
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.baomidou.mybatisplus.extension.activerecord.Model;
@@ -11,7 +11,8 @@ import lombok.Data;
  */
 @Data
 @TableName("t_address")
-public class Address extends Model<Address> {
+public class AddressDO
+        extends Model<AddressDO> {
     private Long id;
     private String code;
     private String name;
