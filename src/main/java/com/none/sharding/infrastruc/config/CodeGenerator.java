@@ -78,7 +78,7 @@ public class CodeGenerator {
         // 包配置
         PackageConfig packageConfig = new PackageConfig();
         packageConfig.setModuleName(scanner("模块名"));
-        packageConfig.setParent("com.none.sharding.infrastruc.service");
+        packageConfig.setParent("com.none.sharding.infrastruc.persistence.service");
         packageConfig.setEntity("model");
         packageConfig.setMapper("mapper");
         packageConfig.setService("service");

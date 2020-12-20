@@ -7,19 +7,17 @@ import lombok.Data;
 import java.time.LocalDateTime;
 
 /**
- * @Author wyn
- * @Date 2020/11/4
- * @Description TODO
+ * @Author nango
+ * @Date 2020/12/19
+ * @Description 商品
  */
 @Data
-@TableName("t_address")
-public class AddressDO
-        extends Model<AddressDO> {
+@TableName("t_product")
+public class ProductDO
+        extends Model<ProductDO> {
     private Long id;
-    private String code;
     private String name;
-    private String pid;
-    private Integer type;
-    private Integer lit;
+    private Long code;
+    private Integer price;
     private LocalDateTime createTime;
 }

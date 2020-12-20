@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@MapperScan("com.none.sharding.infrastruc.mapper")
+@MapperScan({"com.none.sharding.infrastruc.persistence.mapper", "com.none.sharding.infrastruc.persistenceOld.mapper"})
 public class ShardingApplication {
 
     public static void main(String[] args) {

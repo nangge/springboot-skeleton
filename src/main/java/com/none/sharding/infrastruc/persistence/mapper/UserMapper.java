@@ -1,4 +1,4 @@
-package com.none.sharding.infrastruc.mapper;
+package com.none.sharding.infrastruc.persistence.mapper;
 
 import com.none.sharding.domain.entity.UserDO;
 import org.apache.ibatis.annotations.Mapper;

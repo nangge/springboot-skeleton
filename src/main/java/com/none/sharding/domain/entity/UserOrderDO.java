@@ -4,6 +4,8 @@ import com.baomidou.mybatisplus.annotation.TableName;
 import com.baomidou.mybatisplus.extension.activerecord.Model;
 import lombok.Data;
 
+import java.time.LocalDateTime;
+
 /**
  * @Author wyn
  * @Date 2020/12/19
@@ -17,4 +19,5 @@ public class UserOrderDO
     private String orderNo;
     private Long userId;
     private Integer amount;
+    private LocalDateTime createTime;
 }

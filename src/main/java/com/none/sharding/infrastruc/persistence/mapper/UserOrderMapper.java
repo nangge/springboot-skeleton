@@ -1,7 +1,6 @@
-package com.none.sharding.infrastruc.mapper;
+package com.none.sharding.infrastruc.persistence.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.none.sharding.domain.entity.AddressDO;
 import com.none.sharding.domain.entity.UserOrderDO;
 import org.apache.ibatis.annotations.Mapper;
 

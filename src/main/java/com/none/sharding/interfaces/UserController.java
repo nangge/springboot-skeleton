@@ -45,6 +45,7 @@ public class UserController {
                         "            `pid` varchar(64) NOT NULL DEFAULT '0' COMMENT '父id',\n" +
                         "            `type` int(11) DEFAULT NULL COMMENT '1国家2省3市4县区',\n" +
                         "            `lit` int(11) DEFAULT NULL,\n" +
+                        "            `create_time` DATETIME NULL,\n" +
                         "  `user_id` bigint(11) DEFAULT NULL,\n" +
                         "    PRIMARY KEY (`id`)\n" +
                         ") ENGINE=InnoDB DEFAULT CHARSET=utf8;");
@@ -59,6 +60,21 @@ public class UserController {
                         "  `order_no` varchar(64) DEFAULT NULL COMMENT '订单号',\n" +
                         "  `user_id` int(12) DEFAULT NULL COMMENT '用户id',\n" +
                         "  `amount` int(1) DEFAULT NULL COMMENT '金额',\n" +
+                        "`create_time` DATETIME NULL,\n" +
+                        "  PRIMARY KEY (`id`)\n" +
+                        ") ENGINE=InnoDB DEFAULT CHARSET=utf8;");
+        return "success";
+    }
+
+    @RequestMapping("product/createTable")
+    public String createProductTable() {
+        jdbcTemplate.update(
+                "CREATE TABLE `t_product` (\n" +
+                        "  `id` bigint(20) NOT NULL,\n" +
+                        "  `name` varchar(64) DEFAULT NULL COMMENT '商品名',\n" +
+                        "  `code` int(12) DEFAULT NULL COMMENT '商品码',\n" +
+                        "  `price` int(1) DEFAULT NULL COMMENT '金额',\n" +
+                        "`create_time` DATETIME NULL,\n" +
                         "  PRIMARY KEY (`id`)\n" +
                         ") ENGINE=InnoDB DEFAULT CHARSET=utf8;");
         return "success";
