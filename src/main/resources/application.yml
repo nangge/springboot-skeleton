@@ -5,6 +5,7 @@ mybatis-plus:
   mapper-locations: classpath*:/mapper/*.xml
   #实体扫描，多个package用逗号或者分号分隔
   typeAliasesPackage: com.none.sharding.domain.entity
+  executorType: reuse
 spring:
   application:
     name: sharding
@@ -12,13 +13,13 @@ spring:
     datasource:
       names: ds0,ds1
       ds0:
-        url: jdbc:mysql://localhost:3306/order
+        url: jdbc:mysql://localhost:3306/order?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false&rewriteBatchedStatements=true
         type: com.alibaba.druid.pool.DruidDataSource
         driver-class-name: com.mysql.jdbc.Driver
         username: root
         password: 123456
       ds1:
-        url: jdbc:mysql://localhost:3306/old_order
+        url: jdbc:mysql://localhost:3306/old_order?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false&rewriteBatchedStatements=true
         type: com.alibaba.druid.pool.DruidDataSource
         driver-class-name: com.mysql.jdbc.Driver
         username: root
@@ -31,11 +32,11 @@ spring:
       tables:
         t_user:  #t_user表
           key-generator-column-name: id  #主键
-          actual-data-nodes: ds0.t_user${0..1}    #数据节点,均匀分布
+          actual-data-nodes: ds0.t_user${0..11}    #数据节点,均匀分布
           table-strategy:  #分表策略
             standard:
-              sharding-column: sex
-              precise-algorithm-class-name: com.none.sharding.infrastruc.shardingAlgorithm.UserShardingAlgorithm
+              sharding-column: id
+              precise-algorithm-class-name: com.none.sharding.infrastruc.shardingAlgorithm.ConsistentShardingAlgorithm
         t_address:  #t_address
           key-generator-column-name: id  #主键 通过雪花算法生成
           actual-data-nodes: ds0.t_address${0..1}
@@ -53,8 +54,8 @@ spring:
             complex: #行表达式
               sharding-columns: user_id,create_time
               algorithm-class-name: com.none.sharding.infrastruc.shardingAlgorithm.ComplexShardingAlgorithm
-        t_product:
-          actual-data-nodes: ds${0..1}.t_product
+#        t_product:
+#          actual-data-nodes: ds${0..1}.t_product
 
     props:
       sql.show: true #显示原sql以及解析生成的实际sql

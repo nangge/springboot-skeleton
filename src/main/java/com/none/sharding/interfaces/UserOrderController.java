@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
+import java.util.ArrayList;
 
 /**
  * @Author wyn
@@ -27,11 +28,16 @@ public class UserOrderController {
      */
     @RequestMapping("save")
     public String save() {
-        UserOrderDO userOrderDO = new UserOrderDO();
-        userOrderDO.setOrderNo(String.valueOf(System.currentTimeMillis()));
-        userOrderDO.setUserId((long) 123);
-        userOrderDO.setAmount(500);
-        userOrderService.save(userOrderDO);
+        ArrayList<UserOrderDO> userOrderDOS = new ArrayList<>();
+        for(int i=0;i<10000;i++) {
+            UserOrderDO userOrderDO = new UserOrderDO();
+            userOrderDO.setOrderNo(String.valueOf(System.currentTimeMillis()));
+            userOrderDO.setUserId((long) 123);
+            userOrderDO.setAmount(500);
+            userOrderDOS.add(userOrderDO);
+        }
+
+        userOrderService.saveBatch(userOrderDOS,5000);
         return "success";
     }
 

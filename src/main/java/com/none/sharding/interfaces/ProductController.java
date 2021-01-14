@@ -6,6 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.ArrayList;
+
 /**
  * @Author nango
  * @Date 2020/12/20
@@ -27,5 +29,18 @@ public class ProductController {
     @RequestMapping("product/ds0/getOne")
     public ProductDO getProductFromDS0() {
         return productNewServiceImpl.getById(1);
+    }
+
+    @RequestMapping("product/save")
+    public boolean  save() {
+        ArrayList<ProductDO> productDOS = new ArrayList<>();
+        for (int i=0;i<10000;i++) {
+            ProductDO productDO = new ProductDO();
+            productDO.setCode(Long.valueOf(i));
+            productDO.setName("商品" + i);
+            productDO.setPrice(i);
+            productDOS.add(productDO);
+        }
+        return productNewServiceImpl.saveBatch(productDOS);
     }
 }

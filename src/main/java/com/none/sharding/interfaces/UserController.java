@@ -1,10 +1,16 @@
 package com.none.sharding.interfaces;
 
+import com.none.sharding.domain.entity.UserDO;
+import com.none.sharding.domain.service.UserService;
+import com.none.sharding.infrastruc.persistence.mapper.UserMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
+import java.math.BigDecimal;
+import java.util.ArrayList;
 
 /**
  * @Author wyn
@@ -18,20 +24,45 @@ public class UserController {
     @Resource
     private JdbcTemplate jdbcTemplate;
 
+    @Resource
+    private UserService userService;
+    @RequestMapping("save")
+    public String save(@RequestParam Integer num) {
+        ArrayList<UserDO> userOrderDOS = new ArrayList<>();
+        for(int i=0;i<num;i++) {
+            UserDO userDO = new UserDO();
+            userDO.setEmail("safasfsaf");
+            userDO.setUserName("safasfsaf");
+            userDO.setNickname("safasfsaf");
+            userDO.setPassword("123456");
+            userDO.setAge(100);
+            userDO.setBalance(BigDecimal.TEN);
+            userDO.setPhone("18709898767");
+            userOrderDOS.add(userDO);
+        }
+
+        userService.saveBatch(userOrderDOS);
+        return "success";
+    }
+
     @RequestMapping("createTable")
     public String createTable() {
         jdbcTemplate.update(
                 "CREATE TABLE `t_user` (\n" +
-                "  `id` bigint(20) NOT NULL,\n" +
-                "  `name` varchar(64) DEFAULT NULL COMMENT '名称',\n" +
-                "  `city_id` int(12) DEFAULT NULL COMMENT '城市',\n" +
-                "  `sex` tinyint(1) DEFAULT NULL COMMENT '性别',\n" +
-                "  `phone` varchar(32) DEFAULT NULL COMMENT '电话',\n" +
-                "  `email` varchar(32) DEFAULT NULL COMMENT '邮箱',\n" +
-                "  `create_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '创建时间',\n" +
-                "  `password` varchar(32) DEFAULT NULL COMMENT '密码',\n" +
-                "  PRIMARY KEY (`id`)\n" +
-                ") ENGINE=InnoDB DEFAULT CHARSET=utf8;");
+                        "  `id` varchar(20) COLLATE utf8_bin NOT NULL COMMENT '',\n" +
+                        "  `user_name` varchar(20) COLLATE utf8_bin NOT NULL COMMENT '',\n" +
+                        "  `nickname` varchar(20) COLLATE utf8_bin NOT NULL COMMENT '',\n" +
+                        "  `age` int(6) NOT NULL COMMENT '账期',\n" +
+                        "  `password` varchar(20) COLLATE utf8_bin NOT NULL COMMENT '',\n" +
+                        "  `balance` decimal(20,2) NOT NULL DEFAULT '0.00' COMMENT '',\n" +
+                        "  `phone` varchar(20) NOT NULL DEFAULT '0.00' COMMENT '',\n" +
+                        "  `email` varchar(20) NOT NULL DEFAULT '0.00' COMMENT '',\n" +
+                        "  `version` tinyint(4) NOT NULL DEFAULT '0' COMMENT '',\n" +
+                        "  `del_flag` tinyint(4) NOT NULL DEFAULT '0' COMMENT '是否删除  0：未删除  1：以删除',\n" +
+                        "  `biz_key` varchar(20) COLLATE utf8_bin NOT NULL DEFAULT '0' COMMENT '',\n" +
+                        "  `data_status` tinyint(4) NOT NULL DEFAULT '0' COMMENT '',\n" +
+                        "  PRIMARY KEY (`id`) USING BTREE\n" +
+                        ") ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin ROW_FORMAT=DYNAMIC COMMENT='用户表'");
         return "success";
     }
 

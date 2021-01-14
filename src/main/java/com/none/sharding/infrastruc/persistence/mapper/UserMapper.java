@@ -1,6 +1,8 @@
 package com.none.sharding.infrastruc.persistence.mapper;
 
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.none.sharding.domain.entity.UserDO;
+import com.none.sharding.domain.entity.UserOrderDO;
 import org.apache.ibatis.annotations.Mapper;
 
 /**
@@ -9,7 +11,7 @@ import org.apache.ibatis.annotations.Mapper;
  * @Description TODO
  */
 @Mapper
-public interface UserMapper {
+public interface UserMapper extends BaseMapper<UserDO> {
     /**
      * 保存
      */
