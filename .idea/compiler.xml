@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="skeleton-common" />
+        <module name="skeleton-common (2)" />
+        <module name="skeleton-facade" />
+        <module name="skeleton-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="skeleton-common" target="1.8" />
+      <module name="skeleton-common (2)" target="1.8" />
+      <module name="skeleton-facade" target="1.8" />
+      <module name="skeleton-web" target="1.8" />
+      <module name="springboot-skeleton" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="skeleton-common" options="-parameters" />
+      <module name="skeleton-common (2)" options="-parameters" />
+      <module name="skeleton-facade" options="-parameters" />
+      <module name="skeleton-web" options="-parameters" />
+      <module name="springboot-skeleton" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 从高到地低 OFF 、 FATAL 、 ERROR 、 WARN 、 INFO 、 DEBUG 、 TRACE 、 ALL -->
+<configuration debug="false" scan="true" scanPeriod="60 seconds">
+  <!--<include resource="org/springframework/boot/logging/logback/base.xml" />-->
+  <springProperty scope="context" name="appName" source="spring.application.name"/>
+  <property name="default_logger_level" value="INFO"/>
+  <springProperty scope="context" name="log_dir" source="logging.file.path"/>
+  <!-- 日志最大的历史 30天 -->
+  <property name="maxHistory" value="30"/>
+  <property name="maxFileSize" value="100MB"/>
+  <property name="pattern" value="%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] [%tid] %-5level %logger - %msg%n"/>
+
+  <!-- ConsoleAppender 控制台输出日志 -->
+  <appender class="ch.qos.logback.core.ConsoleAppender" name="STDOUT">
+    <!-- 对日志进行格式化 -->
+    <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
+      <layout class="org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout">
+        <pattern>${pattern}</pattern>
+      </layout>
+      <charset>UTF-8</charset>
+    </encoder>
+  </appender>
+
+  <!-- ERROR级别日志 -->
+  <appender class="ch.qos.logback.core.rolling.RollingFileAppender" name="ERROR">
+    <File>${log_dir}/error.log</File>
+    <filter class="ch.qos.logback.classic.filter.LevelFilter">
+      <level>ERROR</level>
+      <onMatch>ACCEPT</onMatch>
+      <onMismatch>DENY</onMismatch>
+    </filter>
+    <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+      <fileNamePattern>${log_dir}/error.%d.%i.gz</fileNamePattern>
+      <maxFileSize>${maxFileSize}</maxFileSize>
+      <maxHistory>${maxHistory}</maxHistory>
+    </rollingPolicy>
+    <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
+      <layout class="org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout">
+        <pattern>${pattern}</pattern>
+      </layout>
+    </encoder>
+  </appender>
+
+  <appender name="ASYNC-ERROR-TIME-APPENDER" class="ch.qos.logback.classic.AsyncAppender">
+    <!--当队列的剩余容量小于这个阈值并且当前日志level TRACE, DEBUG or INFO，则丢弃这些日志。默认为queueSize大小的20%。-->
+    <discardingThreshold>0</discardingThreshold>
+    <!--neverBlock=true则写日志队列时候会调用阻塞队列的offer方法而不是put，如果队列满则直接返回，而不是阻塞，即日志被丢弃。-->
+    <neverBlock>true</neverBlock>
+    <includeCallerData>true</includeCallerData>
+    <!--实际负责写日志的appender,最多只能添加一个-->
+    <appender-ref ref="ERROR"/>
+  </appender>
+
+  <!-- WARN级别日志 appender -->
+  <appender class="ch.qos.logback.core.rolling.RollingFileAppender" name="WARN">
+    <File>${log_dir}/warn.log</File>
+    <filter class="ch.qos.logback.classic.filter.LevelFilter">
+      <level>WARN</level>
+      <onMatch>ACCEPT</onMatch>
+      <onMismatch>DENY</onMismatch>
+    </filter>
+    <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+      <fileNamePattern>${log_dir}/warn.%d.%i.gz</fileNamePattern>
+      <maxFileSize>${maxFileSize}</maxFileSize>
+      <maxHistory>${maxHistory}</maxHistory>
+    </rollingPolicy>
+    <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
+      <layout class="org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout">
+        <pattern>${pattern}</pattern>
+      </layout>
+    </encoder>
+
+  </appender>
+  <appender name="ASYNC-WARN-TIME-APPENDER" class="ch.qos.logback.classic.AsyncAppender">
+    <discardingThreshold>0</discardingThreshold>
+    <neverBlock>true</neverBlock>
+    <includeCallerData>true</includeCallerData>
+    <appender-ref ref="WARN"/>
+  </appender>
+
+  <!-- INFO级别日志 appender -->
+  <appender class="ch.qos.logback.core.rolling.RollingFileAppender" name="INFO">
+    <File>${log_dir}/info.log</File>
+    <filter class="ch.qos.logback.classic.filter.LevelFilter">
+      <level>INFO</level>
+      <onMatch>ACCEPT</onMatch>
+      <onMismatch>DENY</onMismatch>
+    </filter>
+    <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+      <fileNamePattern>${log_dir}/info.%d.%i.gz</fileNamePattern>
+      <maxFileSize>${maxFileSize}</maxFileSize>
+      <maxHistory>${maxHistory}</maxHistory>
+    </rollingPolicy>
+    <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
+      <layout class="org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout">
+        <pattern>${pattern}</pattern>
+      </layout>
+    </encoder>
+
+  </appender>
+  <appender name="ASYNC-INFO-TIME-APPENDER" class="ch.qos.logback.classic.AsyncAppender">
+    <discardingThreshold>0</discardingThreshold>
+    <neverBlock>true</neverBlock>
+    <includeCallerData>true</includeCallerData>
+    <appender-ref ref="INFO"/>
+  </appender>
+
+  <!-- DEBUG级别日志 appender -->
+  <appender class="ch.qos.logback.core.rolling.RollingFileAppender" name="DEBUG">
+    <File>${log_dir}/debug.log</File>
+    <filter class="ch.qos.logback.classic.filter.LevelFilter">
+      <level>DEBUG</level>
+      <onMatch>ACCEPT</onMatch>
+      <onMismatch>DENY</onMismatch>
+    </filter>
+    <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+      <fileNamePattern>${log_dir}/debug.%d.%i.gz</fileNamePattern>
+      <maxFileSize>${maxFileSize}</maxFileSize>
+      <maxHistory>${maxHistory}</maxHistory>
+    </rollingPolicy>
+    <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
+      <layout class="org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout">
+        <pattern>${pattern}</pattern>
+      </layout>
+    </encoder>
+
+  </appender>
+  <appender name="ASYNC-DEBUG-TIME-APPENDER" class="ch.qos.logback.classic.AsyncAppender">
+    <discardingThreshold>0</discardingThreshold>
+    <neverBlock>true</neverBlock>
+    <includeCallerData>true</includeCallerData>
+    <appender-ref ref="DEBUG"/>
+  </appender>
+
+  <!-- TRACE级别日志 appender -->
+  <appender class="ch.qos.logback.core.rolling.RollingFileAppender" name="TRACE">
+    <File>${log_dir}/trace.log</File>
+    <filter class="ch.qos.logback.classic.filter.LevelFilter">
+      <level>TRACE</level>
+      <onMatch>ACCEPT</onMatch>
+      <onMismatch>DENY</onMismatch>
+    </filter>
+    <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+      <fileNamePattern>${log_dir}/trace.%d.%i.gz</fileNamePattern>
+      <maxFileSize>${maxFileSize}</maxFileSize>
+      <maxHistory>${maxHistory}</maxHistory>
+    </rollingPolicy>
+    <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
+      <layout
+        class="org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout">
+        <pattern>${pattern}</pattern>
+      </layout>
+    </encoder>
+
+  </appender>
+  <appender name="ASYNC-TRACE-TIME-APPENDER" class="ch.qos.logback.classic.AsyncAppender">
+    <discardingThreshold>0</discardingThreshold>
+    <neverBlock>true</neverBlock>
+    <includeCallerData>true</includeCallerData>
+    <appender-ref ref="TRACE"/>
+  </appender>
+
+  <root level="INFO">
+    <!-- 控制台输出 -->
+    <appender-ref ref="STDOUT"/>
+    <appender-ref ref="ASYNC-ERROR-TIME-APPENDER"/>
+    <appender-ref ref="ASYNC-INFO-TIME-APPENDER"/>
+    <appender-ref ref="ASYNC-WARN-TIME-APPENDER"/>
+    <appender-ref ref="ASYNC-DEBUG-TIME-APPENDER"/>
+    <appender-ref ref="ASYNC-TRACE-TIME-APPENDER"/>
+  </root>
+</configuration>

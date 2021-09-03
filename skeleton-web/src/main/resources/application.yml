@@ -1,0 +1,81 @@
+server:
+  port: 8099
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eureka.local.cn/eureka/
+    registryFetchIntervalSeconds: 5
+logging:
+  file:
+    path: ./logs
+  level:
+    ROOT:
+    com.nango: debug
+spring:
+  application:
+    name: skeleton
+  swagger:
+    enable: true
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/test?seAffectedRows=true&&characterEncoding=utf-8&useSSL=false&useUnicode=true&&serverTimezone=GMT%2B8
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      initial-size: 1
+      max-active: 20
+      minIdle: 5
+      max-wait: 6000
+      filters: stat,wall
+
+mybatis-plus:
+  # 在classpath前添加星号可以使项目热加载成功
+  mapper-locations: classpath*:mapper/**/*.xml
+  #实体扫描，多个package用逗号或者分号分隔
+  typeAliasesPackage: com.nango.skeletonweb.infrastructure.persistence.**.entity
+  global-config:
+    db-config:
+      logic-delete-field: del_flag  # 全局逻辑删除的实体字段名(since 3.3.0,配置后可以忽略不配置步骤2)
+      logic-delete-value: 1 # 逻辑已删除值(默认为 1)
+      logic-not-delete-value: 0 # 逻辑未删除值(默认为 0)
+    #主键类型  0:"数据库ID自增", 1:"用户输入ID",2:"全局唯一ID (数字类型唯一ID)", 3:"全局唯一ID UUID", 4:"该类型为未设置主键类型", 5:"全局唯一ID (字符类型唯一ID)";
+    id-type: 5
+    #机器 ID 部分(影响雪花ID)
+    workerId: 1
+    #数据标识 ID 部分(影响雪花ID)(workerId 和 datacenterId 一起配置才能重新初始化 Sequence)
+    datacenterId: 20
+    #字段策略 0:"忽略判断",1:"非 NULL 判断"),2:"非空判断"
+    field-strategy: 2
+    #驼峰下划线转换
+    db-column-underline: true
+    #刷新mapper 调试神器
+    refresh-mapper: true
+    #数据库大写下划线转换
+    #capital-mode: true
+    #序列接口实现类配置
+    #key-generator: com.baomidou.springboot.xxx
+    #逻辑删除配置（下面3个配置）
+    logic-delete-value: 0
+    logic-not-delete-value: 1
+    #自定义SQL注入器
+    #sql-injector: com.baomidou.mybatisplus.mapper.LogicSqlInjector
+    #自定义填充策略接口实现
+    #meta-object-handler: com.baomidou.springboot.xxx
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: false
+    # 这个配置会将执行的sql打印出来，在开发或测试的时候可以用
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+xxl:
+  job:
+    admin:
+      addresses: http://xxl-job.local.cn/xxl-job-admin
+    executor:
+      appname: spring-skeleton-job
+      ip:
+      port: 7777
+      logpath: ./logs/xxl-job/jobhandler
+      logretentiondays: 30
+    accessToken:
