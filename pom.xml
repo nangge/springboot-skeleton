@@ -30,6 +30,7 @@
         <swagger2.version>2.9.2</swagger2.version>
         <swagger2-bootstrap-ui.version>1.9.6</swagger2-bootstrap-ui.version>
         <xxl.job.version>2.1.2</xxl.job.version>
+        <redission.version>3.11.1</redission.version>
     </properties>
     <dependencies>
         <dependency>
