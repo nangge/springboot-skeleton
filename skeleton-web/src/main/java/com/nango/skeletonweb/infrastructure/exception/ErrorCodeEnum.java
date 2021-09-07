@@ -22,7 +22,7 @@ public enum ErrorCodeEnum {
     NOT_DATA_PERMISSION("10003", "没有操作该数据的权限,请联系管理员"),
     PARAM_ERROR("10004","参数格式异常"),
     PARAM_TYPE_ERROR("10005","参数类型错误"),
-    SYSTEM_ERROR("10006","参数类型错误"),
+    SYSTEM_ERROR("10006","系统发生错误"),
     NOT_SUPPORTED_REQ_METHOD("10006","请求方式错误"),
     ;
 

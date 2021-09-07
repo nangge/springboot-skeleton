@@ -28,6 +28,12 @@ spring:
       minIdle: 5
       max-wait: 6000
       filters: stat,wall
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password: 123456
+    database: 1
+    timeout: 3000ms
 
 mybatis-plus:
   # 在classpath前添加星号可以使项目热加载成功

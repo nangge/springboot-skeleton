@@ -7,6 +7,7 @@ import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableLogic;
 import lombok.Data;
 
+import java.io.Serializable;
 import java.time.LocalDateTime;
 
 /**
@@ -15,7 +16,7 @@ import java.time.LocalDateTime;
  * @Description 基础模型
  */
 @Data
-public class BaseModel {
+public class BaseModel implements Serializable {
     @TableId(value = "id", type = IdType.AUTO)
     private Long id;
 
