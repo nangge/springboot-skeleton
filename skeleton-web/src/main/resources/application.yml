@@ -3,7 +3,7 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://eureka.local.cn/eureka/
+      defaultZone: http://eureka.local.rys.cn/eureka/
     registryFetchIntervalSeconds: 5
 logging:
   file:
@@ -32,7 +32,7 @@ spring:
     host: 127.0.0.1
     port: 6379
     password: 123456
-    database: 1
+    database: 0
     timeout: 3000ms
 
 mybatis-plus:

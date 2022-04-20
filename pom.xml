@@ -31,6 +31,7 @@
         <swagger2-bootstrap-ui.version>1.9.6</swagger2-bootstrap-ui.version>
         <xxl.job.version>2.1.2</xxl.job.version>
         <redission.version>3.11.1</redission.version>
+        <fastjson.version>1.2.70</fastjson.version>
     </properties>
     <dependencies>
         <dependency>
@@ -46,6 +47,11 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-autoconfigure</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>${fastjson.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>

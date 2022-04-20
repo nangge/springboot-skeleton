@@ -1,4 +1,4 @@
-package com.nango.skeletonweb.application.xxljob;
+package com.nango.skeletonweb.application.xxljobDemo;
 
 import com.nango.skeletonweb.infrastructure.persistence.user.dao.UserDao;
 import com.nango.skeletonweb.infrastructure.persistence.user.entity.User;
@@ -14,7 +14,7 @@ import java.util.List;
 
 /**
  * @author wyn
- * @package com.nango.skeletonweb.application.xxljob
+ * @package com.nango.skeletonweb.application.xxljobDemo
  * @class DemoJobHandler
  * @date 2021/9/3 17:51
  * @description xxl-job 示例

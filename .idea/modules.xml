@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/skeleton-common/skeleton-common.iml" filepath="$PROJECT_DIR$/skeleton-common/skeleton-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/skeleton-common/skeleton-common (2).iml" filepath="$PROJECT_DIR$/skeleton-common/skeleton-common (2).iml" />
       <module fileurl="file://$PROJECT_DIR$/skeleton-facade/skeleton-facade.iml" filepath="$PROJECT_DIR$/skeleton-facade/skeleton-facade.iml" />
       <module fileurl="file://$PROJECT_DIR$/skeleton-web/skeleton-web.iml" filepath="$PROJECT_DIR$/skeleton-web/skeleton-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-skeleton.iml" filepath="$PROJECT_DIR$/springboot-skeleton.iml" />

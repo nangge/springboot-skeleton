@@ -24,6 +24,11 @@ public enum ErrorCodeEnum {
     PARAM_TYPE_ERROR("10005","参数类型错误"),
     SYSTEM_ERROR("10006","系统发生错误"),
     NOT_SUPPORTED_REQ_METHOD("10006","请求方式错误"),
+
+    SECKILL_NOT_EXISTS("20001", "秒杀活动不存在或已结束"),
+    SECKILL_HAD_JOIN("20002", "您已参加过该秒杀活动"),
+    SECKILL_STOCK_NOT_ENOUGH("20003", "库存不足"),
+
     ;
 
 

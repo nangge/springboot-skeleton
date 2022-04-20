@@ -7,7 +7,6 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@EnableEurekaClient
 @MapperScan(basePackages={"com.nango.skeletonweb.infrastructure.persistence.**.mapper"})
 public class SkeletonWebApplication {
 

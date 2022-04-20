@@ -1,14 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/../rys/contract-center/rys-contract-web/src/main/java/com/rys/contract/service/impl/thirdpart/ESignServiceImpl.java" description="JSONObject appConfig = getESignAppConfig();" line="708" />
+    <bookmark url="file://$PROJECT_DIR$/../rys/tenant/tenant-service-facade/pom.xml" description="&lt;groupId&gt;com.rys.tenant&lt;/groupId&gt;" line="11" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1f1d43cf-f6c6-4892-a49a-d1b285eb47e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/utils/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/application/redisDemo/SimpleRedisLockService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/application/seckill/SeckillService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/application/seckill/impl/SeckillServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/domain/order/enums/OrderEventEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/domain/order/enums/StatesEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/domain/order/stateMachine/OrderStateMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/CommonConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/config/LuaConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/interfaces/SeckillController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/interfaces/dto/DoSeckillDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/interfaces/dto/SeckillAddDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skeleton-web/src/main/resources/lua/seckill.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skeleton-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/SkeletonWebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/SkeletonWebApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/application/xxljob/DemoJobHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/application/xxljobDemo/DemoJobHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/config/RedisConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/exception/ErrorCodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/exception/ErrorCodeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/persistence/BaseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/persistence/BaseModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/interfaces/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/interfaces/DemoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/skeleton-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton-web/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skeleton-web/src/test/java/com/nango/skeletonweb/SkeletonWebApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton-web/src/test/java/com/nango/skeletonweb/SkeletonWebApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-skeleton.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-skeleton.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,22 +44,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/resources/lua/seckill.lua">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="78" column="10" lean-forward="true" selection-start-line="78" selection-start-column="10" selection-end-line="78" selection-end-column="10" />
+            <state relative-caret-position="425">
+              <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skeleton-web/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="114" column="30" selection-start-line="114" selection-start-column="30" selection-end-line="114" selection-end-column="30" />
+            <state relative-caret-position="354">
+              <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -46,50 +67,71 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="242">
+              <caret line="27" column="35" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/config/RedisConfig.java">
+        <entry file="file://$PROJECT_DIR$/skeleton-web/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="44" column="60" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="60" />
+            <state relative-caret-position="412">
+              <caret line="77" column="33" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/utils/RedisUtil.java">
+        <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/application/seckill/impl/SeckillServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="138" column="20" selection-start-line="138" selection-start-column="20" selection-end-line="138" selection-end-column="20" />
+            <state relative-caret-position="266">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1073#1074#0" expanded="true" />
-                <element signature="e#1123#1124#0" expanded="true" />
-                <element signature="e#3287#3288#0" expanded="true" />
-                <element signature="e#3336#3337#0" expanded="true" />
-                <element signature="e#3461#3462#0" expanded="true" />
-                <element signature="e#3496#3497#0" expanded="true" />
-                <element signature="e#4201#4202#0" expanded="true" />
-                <element signature="e#4255#4256#0" expanded="true" />
-                <element signature="e#4367#4368#0" expanded="true" />
-                <element signature="e#4425#4426#0" expanded="true" />
-                <element signature="e#4519#4520#0" expanded="true" />
-                <element signature="e#4593#4594#0" expanded="true" />
-                <element signature="e#4944#4945#0" expanded="true" />
-                <element signature="e#5007#5008#0" expanded="true" />
-                <element signature="e#5147#5148#0" expanded="true" />
-                <element signature="e#5217#5218#0" expanded="true" />
-                <element signature="e#5365#5366#0" expanded="true" />
-                <element signature="e#5415#5416#0" expanded="true" />
-                <element signature="e#5561#5562#0" expanded="true" />
-                <element signature="e#5597#5598#0" expanded="true" />
-                <element signature="e#5752#5753#0" expanded="true" />
-                <element signature="e#5801#5802#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE-sources.jar!/org/springframework/stereotype/Service.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/config/LuaConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="33" column="43" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/exception/ErrorCodeEnum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/interfaces/dto/DoSeckillDTO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -98,29 +140,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/interfaces/DemoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/persistence/user/entity/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/persistence/BaseModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+            <state relative-caret-position="629">
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
             </state>
           </provider>
         </entry>
@@ -131,6 +152,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -145,6 +168,13 @@
       <find>filter</find>
       <find>scanner</find>
       <find>redisson\.</find>
+      <find>rys</find>
+      <find>States</find>
+      <find>redis</find>
+      <find>json</find>
+      <find>sha</find>
+      <find>Lua</find>
+      <find>mysql</find>
     </findStrings>
     <replaceStrings>
       <replace>redissonClient.</replace>
@@ -156,8 +186,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/skeleton-facade/pom.xml" />
-        <option value="$PROJECT_DIR$/skeleton-common/pom.xml" />
         <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/config/CommonResponse.java" />
         <option value="$PROJECT_DIR$/skeleton-web/src/main/resources/logback-spring.xml" />
         <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/exception/BizException.java" />
@@ -170,7 +198,6 @@
         <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/persistence/user/entity/User.java" />
         <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/config/MybatisPlusCodeGenerator.java" />
         <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/persistence/user/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/SkeletonWebApplication.java" />
         <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/config/SwaggerConfig.java" />
         <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/config/XxlJobConfig.java" />
         <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/application/xxlJob/DemoJob.java" />
@@ -179,14 +206,37 @@
         <option value="$PROJECT_DIR$/skeleton-web/.gitignore" />
         <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/config/WebLogAspect.java" />
         <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/config/ThreadPoolConfig.java" />
+        <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/utils/RedisUtil.java" />
+        <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/persistence/BaseModel.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/domain/order/stateMachine/StatusEnum.java" />
+        <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/domain/order/enums/StatusEnum.java" />
+        <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/domain/order/enums/StatesEnum.java" />
+        <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/domain/order/enums/OrderEventEnum.java" />
+        <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/domain/order/stateMachine/OrderStateMachine.java" />
         <option value="$PROJECT_DIR$/skeleton-web/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/config/RedisConfig.java" />
-        <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/utils/RedisUtil.java" />
-        <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/persistence/BaseModel.java" />
-        <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/exception/ErrorCodeEnum.java" />
-        <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/interfaces/DemoController.java" />
+        <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/application/xxljobDemo/DemoJobHandler.java" />
+        <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/application/redisDemo/SimpleLock.java" />
+        <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/application/redisDemo/SimpleRedisLock.java" />
+        <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/application/redisDemo/SimpleRedisLockService.java" />
+        <option value="$PROJECT_DIR$/skeleton-web/src/test/java/com/nango/skeletonweb/SkeletonWebApplicationTests.java" />
         <option value="$PROJECT_DIR$/skeleton-web/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/interfaces/dto/SeckillAddDTO.java" />
+        <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/application/seckill/SeckillService.java" />
+        <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/CommonConstant.java" />
+        <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/CommonConstants.java" />
+        <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/interfaces/DemoController.java" />
+        <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/interfaces/SeckillController.java" />
+        <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/SkeletonWebApplication.java" />
+        <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/interfaces/dto/DoSeckillDTO.java" />
+        <option value="$PROJECT_DIR$/skeleton-web/src/main/resources/lua/seckill.lua" />
+        <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/exception/ErrorCodeEnum.java" />
+        <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/config/LuaConfiguration.java" />
+        <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/application/seckill/impl/SeckillServiceImpl.java" />
+        <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/application/demo/DemoService.java" />
+        <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/application/demo/impl/DemoServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -205,17 +255,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="skeleton-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="skeleton-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -242,24 +282,6 @@
             <path>
               <item name="springboot-skeleton" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-skeleton" type="462c0819:PsiDirectoryNode" />
-              <item name="skeleton-facade" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-skeleton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-skeleton" type="462c0819:PsiDirectoryNode" />
-              <item name="skeleton-facade" type="462c0819:PsiDirectoryNode" />
-              <item name=".mvn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-skeleton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-skeleton" type="462c0819:PsiDirectoryNode" />
-              <item name="skeleton-facade" type="462c0819:PsiDirectoryNode" />
-              <item name=".mvn" type="462c0819:PsiDirectoryNode" />
-              <item name="wrapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-skeleton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-skeleton" type="462c0819:PsiDirectoryNode" />
               <item name="skeleton-web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -312,18 +334,6 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="nango" type="462c0819:PsiDirectoryNode" />
               <item name="skeletonweb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-skeleton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-skeleton" type="462c0819:PsiDirectoryNode" />
-              <item name="skeleton-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nango" type="462c0819:PsiDirectoryNode" />
-              <item name="skeletonweb" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-skeleton" type="b2602c69:ProjectViewProjectNode" />
@@ -336,44 +346,6 @@
               <item name="nango" type="462c0819:PsiDirectoryNode" />
               <item name="skeletonweb" type="462c0819:PsiDirectoryNode" />
               <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-skeleton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-skeleton" type="462c0819:PsiDirectoryNode" />
-              <item name="skeleton-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nango" type="462c0819:PsiDirectoryNode" />
-              <item name="skeletonweb" type="462c0819:PsiDirectoryNode" />
-              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-skeleton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-skeleton" type="462c0819:PsiDirectoryNode" />
-              <item name="skeleton-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nango" type="462c0819:PsiDirectoryNode" />
-              <item name="skeletonweb" type="462c0819:PsiDirectoryNode" />
-              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-skeleton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-skeleton" type="462c0819:PsiDirectoryNode" />
-              <item name="skeleton-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nango" type="462c0819:PsiDirectoryNode" />
-              <item name="skeletonweb" type="462c0819:PsiDirectoryNode" />
-              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-skeleton" type="b2602c69:ProjectViewProjectNode" />
@@ -396,9 +368,10 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="Err&#9;FILE&#9;file:///Users/wyn/work/springboot-skeleton/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/exception/ErrorCodeEnum.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1630981243747" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1649080602839" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -445,23 +418,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SkeletonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="springboot-skeleton" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nango.skeleton.SkeletonApplication" />
+    <configuration name="OrderStateMachine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nango.skeletonweb.domain.order.stateMachine.OrderStateMachine" />
+      <module name="skeleton-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nango.skeletonweb.domain.order.stateMachine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SkeletonCommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="skeleton-common (2)" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nango.skeletoncommon.SkeletonCommonApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SkeletonFacadeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="skeleton-facade" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nango.skeletonfacade.SkeletonFacadeApplication" />
+    <configuration name="SkeletonWebApplicationTests.simpleLockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="skeleton-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nango.skeletonweb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nango.skeletonweb" />
+      <option name="MAIN_CLASS_NAME" value="com.nango.skeletonweb.SkeletonWebApplicationTests" />
+      <option name="METHOD_NAME" value="simpleLockTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -474,15 +455,16 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.SkeletonApplication" />
       <item itemvalue="Spring Boot.SkeletonWebApplication" />
-      <item itemvalue="Spring Boot.SkeletonFacadeApplication" />
-      <item itemvalue="Spring Boot.SkeletonCommonApplication" />
       <item itemvalue="Application.MybatisPlusCodeGenerator" />
+      <item itemvalue="Application.OrderStateMachine" />
+      <item itemvalue="JUnit.SkeletonWebApplicationTests.simpleLockTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.MybatisPlusCodeGenerator" />
+        <item itemvalue="JUnit.SkeletonWebApplicationTests.simpleLockTest" />
+        <item itemvalue="Application.OrderStateMachine" />
       </list>
     </recent_temporary>
   </component>
@@ -498,7 +480,18 @@
       <updated>1630564164910</updated>
       <workItem from="1630564166768" duration="262000" />
       <workItem from="1630564488111" duration="9000" />
-      <workItem from="1630564584551" duration="32040000" />
+      <workItem from="1630564584551" duration="32448000" />
+      <workItem from="1631065421565" duration="44000" />
+      <workItem from="1641521266285" duration="1865000" />
+      <workItem from="1641550128018" duration="2067000" />
+      <workItem from="1641910056952" duration="2695000" />
+      <workItem from="1646809752349" duration="5875000" />
+      <workItem from="1646962621730" duration="237000" />
+      <workItem from="1648990816719" duration="803000" />
+      <workItem from="1649075969146" duration="2894000" />
+      <workItem from="1649080624102" duration="6008000" />
+      <workItem from="1649900042113" duration="77000" />
+      <workItem from="1649901746663" duration="4241000" />
     </task>
     <task id="LOCAL-00001" summary="基础骨架搭建">
       <created>1630682316547</created>
@@ -514,18 +507,56 @@
       <option name="project" value="LOCAL" />
       <updated>1630763042241</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="增加分布式锁组件redission&#10;增加redis操作常用工具类">
+      <created>1630981321904</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1630981321905</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="SkeletonWebApplicationTests_simpleLockTest - 2022.03.09 at 18h 26m 41s.xml">
+      <configuration name="SkeletonWebApplicationTests.simpleLockTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SkeletonWebApplicationTests_simpleLockTest - 2022.03.09 at 18h 28m 53s.xml">
+      <configuration name="SkeletonWebApplicationTests.simpleLockTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SkeletonWebApplicationTests_simpleLockTest - 2022.03.09 at 18h 31m 41s.xml">
+      <configuration name="SkeletonWebApplicationTests.simpleLockTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SkeletonWebApplicationTests_simpleLockTest - 2022.03.09 at 18h 32m 44s.xml">
+      <configuration name="SkeletonWebApplicationTests.simpleLockTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SkeletonWebApplicationTests_simpleLockTest - 2022.03.09 at 18h 33m 44s.xml">
+      <configuration name="SkeletonWebApplicationTests.simpleLockTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SkeletonWebApplicationTests_simpleLockTest - 2022.03.09 at 18h 35m 01s.xml">
+      <configuration name="SkeletonWebApplicationTests.simpleLockTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SkeletonWebApplicationTests_simpleLockTest - 2022.03.09 at 18h 36m 29s.xml">
+      <configuration name="SkeletonWebApplicationTests.simpleLockTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SkeletonWebApplicationTests_simpleLockTest - 2022.03.09 at 18h 37m 21s.xml">
+      <configuration name="SkeletonWebApplicationTests.simpleLockTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SkeletonWebApplicationTests_simpleLockTest - 2022.03.09 at 18h 39m 07s.xml">
+      <configuration name="SkeletonWebApplicationTests.simpleLockTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SkeletonWebApplicationTests_simpleLockTest - 2022.04.03 at 21h 01m 47s.xml">
+      <configuration name="SkeletonWebApplicationTests.simpleLockTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32311000" />
+    <option name="totallyTimeSpent" value="59525000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2858166" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -533,12 +564,11 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Learn" order="7" />
-      <window_info anchor="bottom" id="Messages" weight="0.32891566" />
-      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -550,7 +580,9 @@
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="MyBatis Log" order="14" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.32891566" />
+      <window_info anchor="bottom" id="LuaCheck" order="17" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -559,10 +591,12 @@
       <window_info anchor="right" id="Word Book" order="5" side_tool="true" />
       <window_info anchor="right" id="Key Promoter X" order="6" />
       <window_info anchor="right" id="Json Parser" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.3297568" />
+      <window_info anchor="right" id="Maven Projects" order="8" sideWeight="0.49932158" weight="0.3295129" />
       <window_info anchor="right" id="Database" order="9" />
       <window_info anchor="right" id="Palette&#9;" order="10" />
       <window_info anchor="right" id="Theme Preview" order="11" />
+      <window_info anchor="right" id="Bean Validation" order="12" sideWeight="0.49932158" weight="0.3295129" />
+      <window_info anchor="right" id="leetcode" order="13" sideWeight="0.5006784" side_tool="true" weight="0.3295129" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -574,10 +608,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="基础骨架搭建" />
     <MESSAGE value="增加请求入参出参日志打印&#10;增加线程池初始化配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加请求入参出参日志打印&#10;增加线程池初始化配置" />
+    <MESSAGE value="增加分布式锁组件redission&#10;增加redis操作常用工具类" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加分布式锁组件redission&#10;增加redis操作常用工具类" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>simpleRedisLockService.getLock(&quot;product-1&quot;, uuid, 2L)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>redisUtil.getRMap(&quot;redisT&quot;)</expression-string>
         <language-id>JAVA</language-id>
@@ -586,81 +626,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/skeleton-facade/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skeleton-common/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skeleton-common/skeleton-common (2).iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/debug.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/info.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-84" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/resources/logback-spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/exception/BizException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/interfaces/dto/DemoDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.21/druid-1.1.21.jar!/com/alibaba/druid/pool/DruidDataSource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="74" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.21/druid-1.1.21.jar!/com/alibaba/druid/pool/DruidAbstractDataSource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="54" column="53" selection-start-line="54" selection-start-column="47" selection-end-line="54" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid-spring-boot-starter/1.1.21/druid-spring-boot-starter-1.1.21.jar!/com/alibaba/druid/spring/boot/autoconfigure/properties/DruidStatProperties.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -679,9 +644,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
           <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -692,24 +654,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/config/MybatisPlusCodeGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="136" selection-start-line="136" selection-end-line="136" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.4.0/mybatis-plus-extension-3.4.0-sources.jar!/com/baomidou/mybatisplus/extension/service/IService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="197" column="14" selection-start-line="197" selection-start-column="14" selection-end-line="197" selection-end-column="14" />
-          <folding>
-            <element signature="e#5625#5626#0" expanded="true" />
-            <element signature="e#5678#5679#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -727,13 +675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/SkeletonWebApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/config/SwaggerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -745,16 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/application/xxljob/DemoJobHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -782,92 +713,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skeleton-web/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/config/GlobalExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="114" column="30" selection-start-line="114" selection-start-column="30" selection-end-line="114" selection-end-column="30" />
+        <state relative-caret-position="281">
+          <caret line="148" column="60" selection-start-line="148" selection-start-column="60" selection-end-line="148" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/util/concurrent/BlockingQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="2788">
+          <caret line="198" column="12" selection-start-line="198" selection-start-column="12" selection-end-line="198" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/domain/order/enums/StatesEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/domain/order/enums/OrderEventEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/util/AbstractQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="113" column="22" selection-start-line="113" selection-start-column="22" selection-end-line="113" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2499">
+          <caret line="180" column="12" selection-start-line="180" selection-start-column="12" selection-end-line="180" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/persistence/user/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
+        <state relative-caret-position="255">
           <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/exception/ErrorCodeEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/config/GlobalExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="148" column="60" selection-start-line="148" selection-start-column="60" selection-end-line="148" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/utils/RedisUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="138" column="20" selection-start-line="138" selection-start-column="20" selection-end-line="138" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1073#1074#0" expanded="true" />
-            <element signature="e#1123#1124#0" expanded="true" />
-            <element signature="e#3287#3288#0" expanded="true" />
-            <element signature="e#3336#3337#0" expanded="true" />
-            <element signature="e#3461#3462#0" expanded="true" />
-            <element signature="e#3496#3497#0" expanded="true" />
-            <element signature="e#4201#4202#0" expanded="true" />
-            <element signature="e#4255#4256#0" expanded="true" />
-            <element signature="e#4367#4368#0" expanded="true" />
-            <element signature="e#4425#4426#0" expanded="true" />
-            <element signature="e#4519#4520#0" expanded="true" />
-            <element signature="e#4593#4594#0" expanded="true" />
-            <element signature="e#4944#4945#0" expanded="true" />
-            <element signature="e#5007#5008#0" expanded="true" />
-            <element signature="e#5147#5148#0" expanded="true" />
-            <element signature="e#5217#5218#0" expanded="true" />
-            <element signature="e#5365#5366#0" expanded="true" />
-            <element signature="e#5415#5416#0" expanded="true" />
-            <element signature="e#5561#5562#0" expanded="true" />
-            <element signature="e#5597#5598#0" expanded="true" />
-            <element signature="e#5752#5753#0" expanded="true" />
-            <element signature="e#5801#5802#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/config/RedisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="44" column="60" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/interfaces/DemoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -878,10 +776,214 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10931">
+          <caret line="698" column="29" selection-start-line="698" selection-start-column="29" selection-end-line="698" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="527">
+            <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/config/MybatisPlusCodeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="54" column="30" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/domain/order/stateMachine/OrderStateMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="56" column="43" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/application/xxljobDemo/DemoJobHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.3.3.RELEASE/spring-data-redis-2.3.3.RELEASE-sources.jar!/org/springframework/data/redis/core/RedisTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20604">
+          <caret line="1332" column="33" selection-start-line="1332" selection-start-column="33" selection-end-line="1332" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/interfaces/dto/SeckillAddDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton-web/src/test/java/com/nango/skeletonweb/SkeletonWebApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/application/seckill/SeckillService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.3.3.RELEASE/spring-data-redis-2.3.3.RELEASE-sources.jar!/org/springframework/data/redis/core/ValueOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4182">
+          <caret line="268" column="9" selection-start-line="268" selection-start-column="9" selection-end-line="268" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/CommonConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="56" column="90" selection-start-line="56" selection-start-column="90" selection-end-line="56" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/application/redisDemo/SimpleRedisLockService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/utils/RedisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.3.3.RELEASE/spring-data-redis-2.3.3.RELEASE-sources.jar!/org/springframework/data/redis/core/script/DefaultRedisScript.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/SkeletonWebApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/interfaces/SeckillController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/application/demo/DemoService.java" />
+    <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/application/demo/impl/DemoServiceImpl.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE-sources.jar!/org/springframework/stereotype/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/config/LuaConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="33" column="43" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/exception/ErrorCodeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/interfaces/dto/DoSeckillDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/interfaces/DemoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/application/seckill/impl/SeckillServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="78" column="10" lean-forward="true" selection-start-line="78" selection-start-column="10" selection-end-line="78" selection-end-column="10" />
+        <state relative-caret-position="354">
+          <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton-web/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="77" column="33" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/resources/lua/seckill.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
         </state>
       </provider>
     </entry>

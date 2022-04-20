@@ -10,6 +10,8 @@ import io.swagger.annotations.ApiModelProperty;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import org.redisson.api.RMap;
+import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.core.script.DefaultRedisScript;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -18,6 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
 import javax.validation.Valid;
+import java.util.Arrays;
 
 /**
  * @author wyn
@@ -37,6 +40,12 @@ public class DemoController {
     @Resource
     private RedisUtil redisUtil;
 
+    @Resource
+    private RedisTemplate redisTemplate;
+
+    @Resource
+    private DefaultRedisScript<Integer> seckillScript;
+
     @ApiOperation(value = "测试")
     @PostMapping("/test")
     public CommonResponse<User> test(@Valid @RequestBody DemoDTO demoDTO) {
@@ -54,5 +63,12 @@ public class DemoController {
         log.info("<<<<< 日志输出 >>>>>>>> {}", 2);
         User redisT = redisUtil.get("redisT");
         return CommonResponse.success(redisT);
+    }
+
+    @ApiOperation(value = "seckill lua test")
+    @PostMapping("/seckill")
+    public CommonResponse testRedis() {
+        Object a = redisTemplate.execute(seckillScript, Arrays.asList("abc","123"), "2");
+        return CommonResponse.success(a);
     }
 }
