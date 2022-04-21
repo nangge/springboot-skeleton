@@ -32,6 +32,7 @@
         <xxl.job.version>2.1.2</xxl.job.version>
         <redission.version>3.11.1</redission.version>
         <fastjson.version>1.2.70</fastjson.version>
+        <itextpdf.version>5.5.13.3</itextpdf.version>
     </properties>
     <dependencies>
         <dependency>

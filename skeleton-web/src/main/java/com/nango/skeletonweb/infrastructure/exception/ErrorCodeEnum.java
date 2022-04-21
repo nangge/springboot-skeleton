@@ -29,6 +29,10 @@ public enum ErrorCodeEnum {
     SECKILL_HAD_JOIN("20002", "您已参加过该秒杀活动"),
     SECKILL_STOCK_NOT_ENOUGH("20003", "库存不足"),
 
+
+    FOLDER_NOT_EXISTS("30001", "目录不存在"),
+    FILE_NOT_EXISTS("30002", "文件不存在"),
+
     ;
 
 
