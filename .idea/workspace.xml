@@ -6,72 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f1d43cf-f6c6-4892-a49a-d1b285eb47e9" name="Default Changelist" comment="图片转pdf">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cola_cola_component_statemachine_4_1_0_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_70.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_ruedigermoeller_fst_2_57.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_3_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_51_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_51_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_dns_4_1_51_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_51_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_51_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_51_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_dns_4_1_51_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_51_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava2_rxjava_2_2_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_cache_cache_api_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jodd_jodd_bean_5_0_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jodd_jodd_core_5_0_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_redisson_redisson_3_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_3_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_3_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_3_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_3_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_2_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log_dir_IS_UNDEFINED/debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log_dir_IS_UNDEFINED/error.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log_dir_IS_UNDEFINED/info.2021-09-03.0.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log_dir_IS_UNDEFINED/info.2021-09-04.0.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log_dir_IS_UNDEFINED/info.2021-09-06.0.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log_dir_IS_UNDEFINED/info.2022-04-03.0.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log_dir_IS_UNDEFINED/info.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log_dir_IS_UNDEFINED/trace.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log_dir_IS_UNDEFINED/warn.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/error.2021-09-02.0.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/error.2021-09-03.0.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/error.2021-09-04.0.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/error.2021-09-06.0.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/error.2022-04-03.0.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info.2021-09-02.0.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info.2021-09-03.0.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info.2021-09-04.0.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info.2022-03-09.0.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info.2022-04-03.0.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/trace.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/warn.2021-09-02.0.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/warn.2021-09-03.0.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/warn.2021-09-04.0.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/warn.2021-09-06.0.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/warn.2022-04-03.0.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/warn.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/persistence/order/dao/OrderDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/persistence/order/dao/impl/OrderDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/persistence/order/entity/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/persistence/order/mapper/OrderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/persistence/seckill/dao/SeckillDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/persistence/seckill/dao/impl/SeckillDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/persistence/seckill/entity/Seckill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/persistence/seckill/mapper/SeckillMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skeleton-web/src/main/resources/mapper/order/OrderMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skeleton-web/src/main/resources/mapper/seckill/SeckillMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skeleton-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton-web/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skeleton-web/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton-web/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -90,52 +26,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/resources/lua/seckill.lua">
+        <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+            <state relative-caret-position="391">
+              <caret line="23" column="48" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/interfaces/DemoController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-13">
+              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/config/LuaConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/application/seckill/impl/SeckillServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/skeleton-web/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+            <state relative-caret-position="107">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -150,9 +62,29 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skeleton-web/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="137" column="29" selection-start-line="137" selection-start-column="29" selection-end-line="137" selection-end-column="29" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skeleton-web/HELP.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/interfaces/SeckillController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="221">
               <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -164,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/skeleton-web/src/test/java/com/nango/skeletonweb/SkeletonWebApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="40" column="59" lean-forward="true" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
+            <state relative-caret-position="527">
+              <caret line="40" column="59" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -225,6 +157,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/sharding" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -245,7 +182,6 @@
         <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/application/xxlJob/DemoJob.java" />
         <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/application/xxlJob/DemoJobHandler.java" />
         <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/application/xxljob/DemoJobHandler.java" />
-        <option value="$PROJECT_DIR$/skeleton-web/.gitignore" />
         <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/config/WebLogAspect.java" />
         <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/config/ThreadPoolConfig.java" />
         <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/utils/RedisUtil.java" />
@@ -280,6 +216,7 @@
         <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/exception/ErrorCodeEnum.java" />
         <option value="$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/utils/PdfUtils.java" />
         <option value="$PROJECT_DIR$/skeleton-web/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/skeleton-web/.gitignore" />
       </list>
     </option>
   </component>
@@ -327,7 +264,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -413,19 +349,6 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="nango" type="462c0819:PsiDirectoryNode" />
               <item name="skeletonweb" type="462c0819:PsiDirectoryNode" />
-              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-skeleton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-skeleton" type="462c0819:PsiDirectoryNode" />
-              <item name="skeleton-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nango" type="462c0819:PsiDirectoryNode" />
-              <item name="skeletonweb" type="462c0819:PsiDirectoryNode" />
               <item name="interfaces" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -436,64 +359,11 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="springboot-skeleton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-skeleton" type="462c0819:PsiDirectoryNode" />
-              <item name="skeleton-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="lua" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-skeleton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-skeleton" type="462c0819:PsiDirectoryNode" />
-              <item name="skeleton-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-skeleton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-skeleton" type="462c0819:PsiDirectoryNode" />
-              <item name="skeleton-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-skeleton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-skeleton" type="462c0819:PsiDirectoryNode" />
-              <item name="skeleton-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-skeleton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-skeleton" type="462c0819:PsiDirectoryNode" />
-              <item name="skeleton-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nango" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-skeleton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-skeleton" type="462c0819:PsiDirectoryNode" />
-              <item name="skeleton-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nango" type="462c0819:PsiDirectoryNode" />
-              <item name="skeletonweb" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -643,6 +513,7 @@
       <workItem from="1649900042113" duration="77000" />
       <workItem from="1649901746663" duration="9778000" />
       <workItem from="1651329305761" duration="413000" />
+      <workItem from="1651330224367" duration="656000" />
     </task>
     <task id="LOCAL-00001" summary="基础骨架搭建">
       <created>1630682316547</created>
@@ -715,13 +586,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65475000" />
+    <option name="totallyTimeSpent" value="66131000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49759036" visible="true" weight="0.2858166" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49759036" visible="true" weight="0.2858166" />
       <window_info id="Structure" order="1" sideWeight="0.50240964" side_tool="true" weight="0.2858166" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -738,7 +609,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="SonarLint" order="10" />
       <window_info anchor="bottom" id="JProfiler" order="11" />
@@ -803,13 +674,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/config/WebLogAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-485">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/config/ThreadPoolConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1010,13 +874,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/interfaces/DemoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/itextpdf/itextpdf/5.5.13.3/itextpdf-5.5.13.3.jar!/com/itextpdf/text/Image.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
@@ -1060,14 +917,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skeleton-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2329">
-          <caret line="137" column="29" selection-start-line="137" selection-start-column="29" selection-end-line="137" selection-end-column="29" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/exception/ErrorCodeEnum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -1092,6 +941,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/resources/lua/seckill.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/config/LuaConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/application/seckill/impl/SeckillServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/persistence/seckill/dao/SeckillDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1101,7 +977,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/interfaces/SeckillController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="221">
           <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1111,8 +987,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/skeleton-web/src/test/java/com/nango/skeletonweb/SkeletonWebApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="40" column="59" lean-forward="true" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
+        <state relative-caret-position="527">
+          <caret line="40" column="59" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -1130,44 +1006,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/resources/lua/seckill.lua">
+    <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/interfaces/DemoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/infrastructure/config/LuaConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/java/com/nango/skeletonweb/application/seckill/impl/SeckillServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skeleton-web/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        <state relative-caret-position="-13">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/skeleton-web/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        <state relative-caret-position="391">
+          <caret line="23" column="48" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="137" column="29" selection-start-line="137" selection-start-column="29" selection-end-line="137" selection-end-column="29" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton-web/HELP.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skeleton-web/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
