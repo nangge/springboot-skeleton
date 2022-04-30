@@ -1,6 +1,6 @@
 HELP.md
-/logs/
-/log_dir_IS_UNDEFINED/
+logs/
+log_dir_IS_UNDEFINED/
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/

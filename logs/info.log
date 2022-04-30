@@ -1,0 +1,42 @@
+2022-04-30 22:42:32.980 [main] [TID: N/A] INFO  com.nango.skeletonweb.SkeletonWebApplication - No active profile set, falling back to default profiles: default
+2022-04-30 22:42:34.153 [main] [TID: N/A] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-30 22:42:34.157 [main] [TID: N/A] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-30 22:42:34.202 [main] [TID: N/A] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23ms. Found 0 Redis repository interfaces.
+2022-04-30 22:42:34.588 [main] [TID: N/A] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=636288c5-ffeb-35ba-9e64-0d03e048f967
+2022-04-30 22:42:35.242 [main] [TID: N/A] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8099 (http)
+2022-04-30 22:42:35.253 [main] [TID: N/A] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2022-04-30 22:42:35.254 [main] [TID: N/A] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-30 22:42:35.254 [main] [TID: N/A] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2022-04-30 22:42:35.385 [main] [TID: N/A] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-30 22:42:35.385 [main] [TID: N/A] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2382 ms
+2022-04-30 22:42:35.583 [main] [TID: N/A] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-30 22:42:35.609 [main] [TID: N/A] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1d444652
+2022-04-30 22:42:36.411 [main] [TID: N/A] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-04-30 22:42:36.740 [main] [TID: N/A] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-04-30 22:42:37.306 [main] [TID: N/A] INFO  com.nango.skeletonweb.infrastructure.config.RedisConfig - ------------- redisson -----------------------
+2022-04-30 22:42:37.306 [main] [TID: N/A] INFO  com.nango.skeletonweb.infrastructure.config.RedisConfig - TransportMode:NIO
+2022-04-30 22:42:37.570 [main] [TID: N/A] INFO  org.redisson.Version - Redisson 3.11.1
+2022-04-30 22:42:38.491 [redisson-netty-4-22] [TID: N/A] INFO  org.redisson.connection.pool.MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2022-04-30 22:42:38.496 [redisson-netty-4-28] [TID: N/A] INFO  org.redisson.connection.pool.MasterConnectionPool - 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2022-04-30 22:42:39.245 [main] [TID: N/A] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-04-30 22:42:39.354 [main] [TID: N/A] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-30 22:42:39.376 [main] [TID: N/A] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'taskExecutor'
+2022-04-30 22:42:39.384 [main] [TID: N/A] INFO  com.nango.skeletonweb.infrastructure.config.XxlJobConfig - >>>>>>>>>>>  xxl-job config init>>>>>>>>>>> 
+2022-04-30 22:42:39.397 [main] [TID: N/A] INFO  com.xxl.job.core.executor.XxlJobExecutor - >>>>>>>>>>> xxl-job register jobhandler success, name:demoJob, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@64dfa1a3[class com.nango.skeletonweb.application.xxljobDemo.DemoJobHandler#execute]
+2022-04-30 22:42:39.411 [main] [TID: N/A] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-30 22:42:40.293 [main] [TID: N/A] INFO  org.springframework.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2022-04-30 22:42:40.341 [main] [TID: N/A] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2022-04-30 22:42:40.514 [main] [TID: N/A] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2022-04-30 22:42:40.514 [main] [TID: N/A] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2022-04-30 22:42:40.651 [main] [TID: N/A] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2022-04-30 22:42:40.652 [main] [TID: N/A] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2022-04-30 22:42:40.869 [main] [TID: N/A] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-04-30 22:42:40.895 [main] [TID: N/A] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2022-04-30 22:42:40.896 [main] [TID: N/A] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2022-04-30 22:42:40.896 [main] [TID: N/A] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2022-04-30 22:42:40.896 [main] [TID: N/A] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2022-04-30 22:42:40.896 [main] [TID: N/A] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2022-04-30 22:42:40.897 [main] [TID: N/A] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2022-04-30 22:42:40.897 [main] [TID: N/A] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2022-04-30 22:42:46.118 [main] [TID: N/A] INFO  org.apache.http.impl.client.DefaultHttpClient - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://eureka.local.rys.cn:80: The target server failed to respond
+2022-04-30 22:42:46.118 [main] [TID: N/A] INFO  org.apache.http.impl.client.DefaultHttpClient - Retrying request to {}->http://eureka.local.rys.cn:80
