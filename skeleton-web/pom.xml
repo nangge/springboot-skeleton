@@ -6,7 +6,8 @@
         <groupId>com.nango</groupId>
         <artifactId>skeleton</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath>../pom.xml</relativePath> <!-- lookup parent from repository -->
+
     </parent>
     <packaging>jar</packaging>
     <artifactId>skeleton-web</artifactId>
