@@ -7,7 +7,6 @@
         <artifactId>skeleton</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath/> <!-- lookup parent from repository -->
-
     </parent>
     <packaging>jar</packaging>
     <artifactId>skeleton-common</artifactId>
@@ -32,11 +31,27 @@
 
     <build>
         <plugins>
+            <!-- 打包时将源码打包并发布 -->
             <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+                <version>3.2.1</version>
+                <executions>
+                    <execution>
+                        <id>attach-sources</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <!-- 打包时跳过测试 -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.22.2</version>
                 <configuration>
-                    <classifier>exec</classifier>
+                    <skip>true</skip>
                 </configuration>
             </plugin>
         </plugins>
