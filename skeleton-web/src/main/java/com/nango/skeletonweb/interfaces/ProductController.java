@@ -1,6 +1,8 @@
 package com.nango.skeletonweb.interfaces;
 
 import com.nango.skeletonweb.domain.entity.ProductDO;
+import com.nango.skeletonweb.domain.entity.ProductNewDO;
+import com.nango.skeletonweb.domain.service.ProductNewService;
 import com.nango.skeletonweb.domain.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -19,28 +21,28 @@ public class ProductController {
     private ProductService productServiceImpl;
 
     @Autowired
-    private ProductService productNewServiceImpl;
+    private ProductNewService productNewService;
 
     @RequestMapping("product/ds1/getOne")
     public ProductDO getProductFromDS1() {
-        return productServiceImpl.getById(1);
+        return productServiceImpl.getById(1343104512895377409L);
     }
 
     @RequestMapping("product/ds0/getOne")
-    public ProductDO getProductFromDS0() {
-        return productNewServiceImpl.getById(1);
+    public ProductNewDO getProductFromDS0() {
+        return productNewService.getById("1343104512895377409");
     }
 
     @RequestMapping("product/save")
     public boolean  save() {
-        ArrayList<ProductDO> productDOS = new ArrayList<>();
-        for (int i=0;i<10000;i++) {
-            ProductDO productDO = new ProductDO();
+        ArrayList<ProductNewDO> productDOS = new ArrayList<>();
+        for (int i=0;i<1;i++) {
+            ProductNewDO productDO = new ProductNewDO();
             productDO.setCode(Long.valueOf(i));
             productDO.setName("商品" + i);
             productDO.setPrice(i);
             productDOS.add(productDO);
         }
-        return productNewServiceImpl.saveBatch(productDOS);
+        return productNewService.saveBatch(productDOS);
     }
 }

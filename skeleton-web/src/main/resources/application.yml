@@ -54,9 +54,25 @@ spring:
             complex: #行表达式
               sharding-columns: user_id,create_time
               algorithm-class-name: com.nango.skeletonweb.infrastructure.shardingAlgorithm.ComplexShardingAlgorithm
+
+        t_product_new:
+          key-generator-column-name: id  #主键 通过雪花算法生成
+          actual-data-nodes: ds0.t_product_new${0..2}
+          table-strategy:  #分表策略
+            inline:
+              sharding-column: id
+              algorithm-expression: t_product_new${Long.valueOf(id) % 3}
+
 #        t_product:
 #          actual-data-nodes: ds${0..1}.t_product
 
     props:
       sql.show: true #显示原sql以及解析生成的实际sql
       allow.range.query.with.inline.sharding: true  #支持范围查询例如大于、小于、between；
+#canal
+canalServer:
+  host: 127.0.0.1
+  port: 11111
+  destination: product
+  userName:
+  password:

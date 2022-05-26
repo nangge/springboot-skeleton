@@ -1,8 +1,7 @@
-package com.nango.skeletonweb.infrastructure.persistence.mapper;
+package com.nango.skeletonweb.infrastructure.persistenceOld.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.nango.skeletonweb.domain.entity.ProductDO;
-import com.nango.skeletonweb.domain.entity.ProductNewDO;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Update;
@@ -13,13 +12,21 @@ import org.apache.ibatis.annotations.Update;
  * @Description
  */
 @Mapper
-public interface ProductNewMapper
-        extends BaseMapper<ProductNewDO> {
+public interface ProductMapper
+        extends BaseMapper<ProductDO> {
     /**
-     * 执行sql
+     * 执行更新
      * @param sql
      * @return
      */
     @Update({"${sql}"})
-    int execSQL(@Param("sql") String sql);
+    int execUpdateSQL(@Param("sql") String sql);
+
+    /**
+     * 执行插入
+     * @param sql
+     * @return
+     */
+    @Update({"${sql}"})
+    int execInsertSQL(@Param("sql") String sql);
 }

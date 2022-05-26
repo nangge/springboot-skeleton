@@ -18,12 +18,17 @@ import java.util.TreeMap;
 public class ConsistentHashAlgorithm {
 
 
-    //虚拟节点，key表示虚拟节点的hash值，value表示虚拟节点的名称
+    /**
+     * 虚拟节点，key表示虚拟节点的hash值，value表示虚拟节点的名称
+     */
+
     @Getter
     private SortedMap<Long, String> virtualNodes = new TreeMap<>();
 
     //虚拟节点的数目
     private static final int VIRTUAL_NODES = 1;
+
+    private static final String SUB_STRING_KEY = "-";
 
 
     public ConsistentHashAlgorithm() {
@@ -60,7 +65,6 @@ public class ConsistentHashAlgorithm {
      * @param key
      * @return
      */
-    private static final String SUB_STRING_KEY = "-";
     public String getTableNode(String key) {
         String virtualNode = getVirtualTableNode(key);
         //虚拟节点名称截取后获取真实节点
@@ -104,8 +108,9 @@ public class ConsistentHashAlgorithm {
     public long getHash(String key) {
         final int p = 16777619;
         int hash = (int) 2166136261L;
-        for (int i = 0; i < key.length(); i++)
+        for (int i = 0; i < key.length(); i++) {
             hash = (hash ^ key.charAt(i)) * p;
+        }
         hash += hash << 13;
         hash ^= hash >> 7;
         hash += hash << 3;

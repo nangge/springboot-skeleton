@@ -2,11 +2,11 @@ package com.nango.skeletonweb.domain.entity;
 
 import com.baomidou.mybatisplus.annotation.FieldFill;
 import com.baomidou.mybatisplus.annotation.TableField;
+import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.baomidou.mybatisplus.extension.activerecord.Model;
 import lombok.Data;
 
-import java.time.LocalDateTime;
 import java.util.Date;
 
 /**
@@ -15,9 +15,10 @@ import java.util.Date;
  * @Description 商品
  */
 @Data
-@TableName("t_product")
-public class ProductDO
-        extends Model<ProductDO> {
+@TableName("t_product_new")
+public class ProductNewDO
+        extends Model<ProductNewDO> {
+    @TableId(value = "id")
     private Long id;
     private String name;
     private Long code;
